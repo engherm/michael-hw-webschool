@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.sclera {
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.lens {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(45, 89, 235, 0.9);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  animation-name: bouncing-eyes;
+  animation-duration: 12s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transition: all 12s ease-in-out;
+}
+
+.pupil {
+  width: 40%;
+  height: 40%;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@keyframes bouncing-eyes {
+  0% {
+    transform: translateX(-100%) scale(0.25, 1.25);
+  }
+  12.5% {
+    transform: translateX(50%);
+  }
+
+  25% {
+    transform: translateX(100%) scale(0.25, 1.25);
+  }
+
+  37.5% {
+    transform: translateX(-50%);
+  }
+
+  50% {
+    transform: translateY(-100%) scale(1.25, 0.25);
+  }
+
+  62.5% {
+    transform: translateY(50%);
+  }
+
+  75% {
+    transform: translateY(100%) scale(1.25, 0.25);
+  }
+
+  87.5% {
+    transform: translateY(-50%);
+  }
+
+}
