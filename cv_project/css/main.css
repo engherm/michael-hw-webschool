@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: skyblue;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.top-header {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+
+.main-nav-item {
+  display: inline-block;
+  margin: 16px;
+  font-size: 20px;
+}
+
+.main-nav-link {
+  text-decoration: none;
+}
+
+.main-nav-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.main-nav-link:active {
+  color: #aaa;
+}
+
+
+#profile-img {
+  border-radius: 50%;
+}
+
+#main-header {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+figcaption {
+  font-size: 26px;
+}
+
+#profession-cont {
+  font-size: 32px;
+}
+
+
+#profession {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 0;
+}
+
+.article-heading {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.iframe-recommend {
+  width: 600px;
+  height: 400px;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+.social-media-list {
+  text-align: center;
+}
+
+.social-media-icons {
+  display: inline-block;
+  margin: 24px;
+  font-size: 64px;
+}
+
+#goofing-around-img {
+  border-radius: 50%;
+}
+
+#playful {
+  text-align: center;
+}
+
+#family-table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 24px;
+  padding: 8px;
+}
+
+fieldset {
+  margin-bottom: 40px;
+}
+
+legend {
+  font-size: 32px;
+}
+
+h3 {
+  margin-top: 100px;
+}
+
+.back-to-top {
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+ul, ol {
+  text-align: left;
+  font-size: 22px;
+}
+
+li {
+  margin: 8px;
+}

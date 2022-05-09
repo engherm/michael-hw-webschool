@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+}
+
+.pedal {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transition: all 1s ease;
+}
+
+.tachometer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.needle {
+  position: absolute;
+  top: 88px;
+  right: 90px;
+  transform: rotateZ(223deg);
+  transform-origin: 50% 80%;
+  transition: all 1s ease;
+}
+
+.pedal:hover {
+  transform: rotateX(50deg);
+}
+
+.pedal:hover~.needle {
+  transform: rotateZ(360deg);
+}

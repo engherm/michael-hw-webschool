@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: crimson;
+}
+
+.flex-header-container {
+  border-bottom: 5px solid crimson;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.flex-header-item {
+  flex: 1;
+}
+
+.flex-header-logo {
+  font-size: 25px;
+  color: crimson;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-header-nav {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active {
+  border-bottom: 3px solid crimson;
+}
+
+.nav-item {
+  font-size: 22px;
+  color: rgb(192, 52, 80)
+}
+
+.flex-header-user {
+  position: relative;
+}
+
+.flex-header-user-photo {
+  color: blue;
+  font-size: 70px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.flex-header-user-notifications {
+  font-size: 15px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(131, 3, 24);
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 35px;
+  padding: 2px 6px
+}
+
+.flex-header-user-settings {
+  color: #777;
+  font-size: 22px;
+  position: absolute;
+  bottom: 5px;
+  right: 80px;
+}
+
+.flex-header-user-logout {
+  color: #444;
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+
+
+
