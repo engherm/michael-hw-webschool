@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+main {
+  align-self: center;
+}
