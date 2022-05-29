@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      the-use-of-string-templates-to-create-html-elements-1-with-cars
+    </title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="filter-category">
+        <span class="checkboxes">
+          <input type="checkbox" id="hatch" name="category" value="Hatch" />
+          <label for="hatch">Hatch</label>
+        </span>
+        <span class="checkboxes">
+          <input
+            type="checkbox"
+            id="automatic"
+            name="category"
+            value="Automatic"
+          />
+          <label for="automatic">Automatic</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="sedan" name="category" value="Sedan" />
+          <label for="sedan">Sedan</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="family" name="category" value="Family" />
+          <label for="family">Family</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="luxury" name="category" value="Luxury" />
+          <label for="luxury">Luxury</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="sport" name="category" value="Sport" />
+          <label for="sport">Sport</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="suv" name="category" value="SUV" />
+          <label for="suv">SUV</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="hybrid" name="category" value="Hybrid" />
+          <label for="hybrid">Hybrid</label>
+        </span>
+
+        <span class="checkboxes">
+          <input type="checkbox" id="economy" name="category" value="Economy" />
+          <label for="economy">Economy</label>
+        </span>
+
+        <span class="checkboxes">
+          <input
+            type="checkbox"
+            id="electric"
+            name="category"
+            value="Electric"
+          />
+          <label for="electric">Electric</label>
+        </span>
+      </div>
+    </header>
+    <main></main>
+
+    <button class="toggle-form-btn">Show Form</button>
+    <div class="form-wrapper">
+      <div class="add-car-form">
+        <input type="text" placeholder="Plate ID" id="plate-id" />
+        <input type="text" placeholder="Brand" id="brand" name="brand" />
+        <input
+          type="text"
+          placeholder="Product Name"
+          id="prod-name"
+          name="prodName"
+        />
+        <input type="text" placeholder="Price" id="price" name="price" />
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Product description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="text" placeholder="Categories" id="category" />
+        <input type="text" placeholder="Image URL" id="image" name="image" />
+        <button id="add-car-btn">Add Car</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
