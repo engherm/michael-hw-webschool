@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(107, 2, 107);
+  color: rgb(238, 167, 238);
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 50%;
+  margin: 1.5rem auto;
+}
+
+main {
+  width: 85vw;
+  height: 75vh;
+  background-color: rgb(133, 72, 133);
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(13, 62px);
+  gap: 20px;
+  justify-content: center;
+}
+
+img {
+  margin: 0.5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  background-color: rgb(236, 77, 236);
+  outline: none;
+  padding: 0.25rem 0.75rem;
+  color: rgb(107, 2, 107);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 1rem;
+}
+
+button:active {
+  transform: scale(0.8);
+}

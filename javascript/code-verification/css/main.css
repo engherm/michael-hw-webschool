@@ -1,0 +1,75 @@
+body {
+  background-color: #444;
+  font-family: sans-serif;
+}
+
+header {
+  display: block;
+}
+
+.flex-container {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
+
+.flex-container > h2 {
+  text-align: center;
+  width: 50%;
+  margin: 1rem auto; 
+  color: #eee;
+}
+
+.input-container {
+  width: 50%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+input[type="number"] {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+main {
+  display: none;
+}
+
+/* #code-inp {
+  display: block;
+  font-size: 2.5rem;
+  margin: 1rem;
+} */
+
+#get-code-btn {
+  font-size: 2.5rem;
+  margin: 1rem;
+  width: 30%;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 30rem;
+  margin: 5rem auto;
+}
+
+.keypad-btns {
+  width: 6rem;
+  height: 6rem;
+  font-size: 3rem;
+  background-color: white;
+}
+
+#btn-0 {
+  width: 370px;
+  grid-area: 4 / 1 / 4 / 3;
+}
