@@ -1,0 +1,46 @@
+body {
+  background-color: hotpink;
+  font-family: cursive;
+  color: #eee;
+}
+
+main {
+  font-size: 3rem;
+  text-align: center;
+  width: 50rem;
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+input,
+button {
+  display: block;
+  margin: 2rem auto;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  background-color: bisque;
+  color:rgb(243, 60, 91);
+  letter-spacing: 0.5rem;
+}
+
+input::placeholder {
+  color: rgb(243, 60, 91);
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.8);
+  font-weight: bold;
+  box-shadow: 5px 5px 10px 20px red;
+  transition: box-shadow 0.3s linear;
+}

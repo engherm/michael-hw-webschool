@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      E-COMMERCE BOOKS
+    </title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BOOKSTORE</h1>
+      <h2>Explore Categories</h2>
+      <div class="search-form">
+        <span>
+          <input type="checkbox" name="category" id="classics" value="classics" />
+          <label for="classics"> Classics</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="adventure" value="adventure" />
+          <label for="adventure"> Adventure</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="fantasy" value="fantasy" />
+          <label for="fantasy"> Fantasy</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="children" value="children" />
+          <label for="children"> Children</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="thrillers" value="thrillers" />
+          <label for="thrillers"> Thrillers</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="fiction" value="fiction" />
+          <label for="fiction"> Fiction</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="biography" value="biography" />
+          <label for="biography"> Biography</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="history" value="history" />
+          <label for="history"> History</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="romance" value="romance" />
+          <label for="romance"> Romance</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="teens" value="teens" />
+          <label for="teens"> Teens</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="crime" value="crime" />
+          <label for="crime"> Crime</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="novel" value="novel" />
+          <label for="novel"> Novel</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="contemporary" value="contemporary" />
+          <label for="contemporary"> Contemporary</label></span
+        >
+        <span>
+          <input type="checkbox" name="category" id="science" value="science" />
+          <label for="science"> Science</label></span
+        >
+      </div>
+    </header>
+
+    <main class="books-grid"></main>
+    
+    <div class="form-container">
+      <button class="toggle-form-btn">Show Form</button>
+      <div class="book-add-form">
+        <input type="text" placeholder="Enter Book ISBN" id="book-isbn" />
+        <input type="text" placeholder="Enter Book Title" id="book-title" />
+        <input type="text" placeholder="Enter Book Author" id="book-author" />
+        <input
+          type="text"
+          placeholder="Enter Book Price. Ex: $9.99"
+          id="book-price"
+        />
+        <input
+          type="text"
+          placeholder="Enter Book Categories. Ex: romance, crime, fantasy"
+          id="book-categories"
+        />
+        <input
+          type="text"
+          placeholder="Enter Book Image File Name. Ex: the-alchemist.jpg"
+          id="book-image"
+        />
+        <textarea
+          placeholder="Type book description."
+          id="book-description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button class="add-book-btn">Add Book</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
