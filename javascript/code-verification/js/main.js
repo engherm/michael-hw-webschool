@@ -8,6 +8,8 @@ const codeDigits = [
 let digitsNum = 0;
 let errorsNum = 0;
 let message = "";
+let timeoutId;
+const timeoutIdArr = [];
 
 getCodeBtn = document.getElementById("get-code-btn");
 header = document.querySelector("header");
@@ -32,7 +34,7 @@ function colorBtn(btn) {
 
 // Reseting after 3 seconds passed since last button click
 function startTimer(arr) {
-  setTimeout(() => {
+  timeoutId = setTimeout(() => {
     for (let i = 0; i < arr.length; i++) {
       arr[i].style.backgroundColor = "white";
     }
@@ -46,7 +48,10 @@ function getInpCode() {
   colorBtn(this);
   inpCodeDigits.push(this.innerText);
   digitsNum++;
-  if (digitsNum == 4) verifyCode(inpCodeDigits);
+  if (digitsNum == 4) {
+    clearTimeout(timeoutId);
+    verifyCode(inpCodeDigits);
+  } 
 }
 
 function verifyCode(digitsArr) {
