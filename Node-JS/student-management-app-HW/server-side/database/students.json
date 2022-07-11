@@ -1,0 +1,56 @@
+[
+  { 
+    "id":123456789,
+    "fullName":"Bill Gates",
+    "age":9.7,
+    "gpa":99
+  },
+  { 
+    "id":234567891,
+    "fullName":"Steve Jobs",
+    "age":9.3,
+    "gpa":100
+  },
+  { 
+    "id":345678912,
+    "fullName":"Elon Musk",
+    "age":9.4,
+    "gpa":97
+  },
+  { 
+    "id":456789123,
+    "fullName":"Grace Hopper",
+    "age":8.10,
+    "gpa":97
+  },
+  { 
+    "id":567891234,
+    "fullName":"Charles Babbage",
+    "age":9.0,
+    "gpa":95
+  },
+  { 
+    "id":678912345,
+    "fullName":"Ada Lovelace",
+    "age":9.11,
+    "gpa":100
+  },
+  { 
+    "id":789123456,
+    "fullName":"Alan Turing",
+    "age":9.6,
+    "gpa":100
+  },
+  { 
+    "id":891234567,
+    "fullName":"Thomas Edison",
+    "age":9.1,
+    "gpa":94
+  },
+  { 
+    "id":912345678,
+    "fullName":"Marty McFly",
+    "age":10.2,
+    "gpa":59
+  }
+]
